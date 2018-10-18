@@ -1,5 +1,27 @@
 #<?php
 
+
+
+4 points         after user clicks buy button, it checks the number of the copies the user selected for each book. 
+        if none of the books has the number of copies greater then 0. it redisplays the page 
+        with an error message states:"At least one book's number of copy should be greater than 0, 
+        as shown below(for simplicity, you can treat any entry other than positive integers as 0)"
+        
+        
+5 points 
+ if one or more books have the number of copies entered greater than 0, 
+ the confirmation.php   will be displayed after the user clicks the "buy button"
+ 
+ this page displays the following for each book with copies > 0:
+ a) title, price, number of copies
+ B) total price for each title, total price for all selected books,
+                    
+                    
+  the confirmation page also has a back button leading the user back to BookSelection.php page.
+when the "bookselection.php" page is displayed again, it should maintain the user's previous selections.
+        
+        
+        
     function ValidateTerms ($terms, &$validTerms)
     {
         if (!isset($terms))
